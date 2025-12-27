@@ -1,0 +1,20 @@
+section { transition: opacity .05s ease-out; }
+section.active { opacity: 1; }
+
+.show1-0.show, .show1-1.show, .show1-2.show { animation-delay: 0s; }
+.show2-0.show, .show2-1.show, .show2-2.show { animation-delay: 0.2s; }
+footer.show { animation-delay: 0.4s; }
+
+@media screen and (max-width: 1600px) {
+    .check { display: inline-block; width: 3%; }
+    .page2 .info-mid { display: none; }
+    .page2 .info-d { text-align: center; gap: 5rem; }
+    .page2 .info { gap: 1rem; }
+}
+
+@media screen and (max-width:768px) {
+    .page1 .info { top: 15rem; text-align: center; }
+    .page1 .logo { left: 50%; transform: translateX(-50%); text-align: center; }
+    .page2 .info-d, .page3 .info-d { text-align: center; gap: 1rem; }
+    .page2 .info, .page3 .info { top: 7.5rem; flex-direction: column; gap: 1rem; }
+}

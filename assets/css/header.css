@@ -1,0 +1,5 @@
+.inactive { color: #bdbdbd; }
+.inactive:hover { color: #0049FF; }
+.home_btn.active { background-image: url("../images/home_btn_active.png"); }
+.home_btn.inactive { background-image: url("../images/home_btn_inactive.png"); }
+.home_btn.inactive:hover { background-image: url("../images/home_btn_hover.png"); }

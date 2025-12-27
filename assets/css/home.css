@@ -1,0 +1,13 @@
+.show1 { animation-delay: 0s; }
+.show2 { animation-delay: 0.2s; }
+.show3 { animation-delay: 0.4s; }
+.show4 { animation-delay: 0.6s; }
+.show5 { animation-delay: 0.8s; }
+.show6 { animation-delay: 1.0s; }
+.show7 { animation-delay: 2.0s; }
+
+@media screen and (max-width:768px) {
+    .g-t-c-3 { grid-template-columns: repeat(2, 1fr); }
+    .g-t-r-2 { grid-template-rows: repeat(3, auto); }
+    .mail { display: flex; flex-direction: column; justify-content: flex-start; }
+}

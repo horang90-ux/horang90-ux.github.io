@@ -1,0 +1,10 @@
+.show1 { animation-delay: 0s; }
+.show2 { animation-delay: 0.2s; }
+.show3 { animation-delay: 0.4s; }
+
+.info-d:hover .hover { opacity: 1; cursor: pointer; }
+.info-d:hover .default {  opacity: 0;  }
+
+@media screen and (max-width:768px) {
+    .info { width: 70%; display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, auto); }
+}

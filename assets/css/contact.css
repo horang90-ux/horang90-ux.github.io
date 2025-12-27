@@ -1,0 +1,6 @@
+.show1 { animation-delay: 0s; }
+.show2 { animation-delay: 0.2s; }
+
+@media screen and (max-width:768px) {
+    .info { flex-direction: column; gap: 4rem; }
+}
