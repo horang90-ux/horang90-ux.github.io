@@ -16,5 +16,5 @@ footer.show { animation-delay: 0.4s; }
     .page1 .info { top: 15rem; text-align: center; }
     .page1 .logo { left: 50%; transform: translateX(-50%); text-align: center; }
     .page2 .info-d, .page3 .info-d { text-align: center; gap: 1rem; }
-    .page2 .info, .page3 .info { top: 7.5rem; flex-direction: column; gap: 1rem; }
+    .page2 .info, .page3 .info { top: 7rem; flex-direction: column; gap: 1rem; }
 }
