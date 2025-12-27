@@ -4,7 +4,7 @@
 .show4 { animation-delay: 0.6s; }
 .show5 { animation-delay: 0.8s; }
 .show6 { animation-delay: 1.0s; }
-.show7 { animation-delay: 1.2s; }
+.show7 { animation-delay: 1.8s; }
 
 @media screen and (max-width:768px) {
     .g-t-c-3 { grid-template-columns: repeat(2, 1fr); }
