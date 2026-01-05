@@ -18,8 +18,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/* font-size: 25px; */
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -66,4 +64,3 @@ a {
 a:hover {
 	cursor: pointer;
 }
-

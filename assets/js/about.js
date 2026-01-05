@@ -11,6 +11,9 @@ $(document).ready(function() {
     }
 
     function show_page(down) {
+        if(page_no === 1) $('html').addClass('backc-f4f8fd');
+        else $('html').removeClass('backc-f4f8fd');
+
         if(down) {
             $(`.show1-${page_no-1}`).removeClass('show');
             $(`.show2-${page_no-1}`).removeClass('show');

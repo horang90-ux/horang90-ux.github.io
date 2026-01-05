@@ -5,6 +5,7 @@
 .info-d:hover .hover { opacity: 1; cursor: pointer; }
 .info-d:hover .default {  opacity: 0;  }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
+    .info-hd { display: none; }
     .info { width: 70%; display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, auto); }
 }
