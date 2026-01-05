@@ -182,7 +182,7 @@ html.font-ready {
 
 @media screen and (max-width:1200px) {
     .mx-w-100 { max-width: 100%; }
-    .mx-w-100 { max-width: 100%; }
+    .mx-h-100 { max-height: 100%; }
     .w-1-5rem { width: 1.3rem; }
     .h-1-5rem { height: 1.3rem; }
 }
