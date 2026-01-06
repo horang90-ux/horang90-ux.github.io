@@ -114,7 +114,7 @@ html.font-ready {
 .ft-28 { font-size: clamp(20px, 1.8vw, 28px); }
 .ft-30 { font-size: clamp(20px, 1.8vw, 30px); }
 .ft-40 { font-size: clamp(23px, 3.8vw, 40px); }
-.ft-50 { font-size: clamp(24px, 4.2vw, 50px); }
+.ft-50 { font-size: clamp(24px, 3.6vw, 50px); }
 .fw-600 { font-weight: 600; }
 .fw-700 { font-weight: 700; }
 .color-8bdf { color: #8b8d8f; }
@@ -129,6 +129,7 @@ html.font-ready {
 .jc-c { justify-content: center; }
 .ali-fe { align-items: flex-end; }
 .ali-c { align-items: center; }
+.jc-i-c { justify-items: center; }
 .g-t-c-4 { grid-template-columns: repeat(6, 1fr); }
 .g-t-c-3 { grid-template-columns: repeat(3, 1fr); }
 .g-t-r-2 { grid-template-rows: repeat(2, auto); }
@@ -157,6 +158,7 @@ html.font-ready {
 .top-5rem { top: 5rem; }
 .top-6rem { top: 6rem; }
 .top-8rem { top: 8rem; }
+.top-12rem { top: 12rem; }
 .top-15rem { top: 15rem; }
 .top-16rem { top: 16rem; }
 .left-0 { left: 0; }
@@ -187,12 +189,17 @@ html.font-ready {
     .h-1-5rem { height: 1.3rem; }
 }
 
+@media screen and (max-width:900px) {
+    .top-12rem { top: 3rem; } 
+}
+
 @media screen and (max-width:768px) {
     .h-105px { height: 90px; }
     .h-100vh-f { height: calc(100vh - 160px); }
     .mb-10 { margin-bottom: 5px; }
     .mb-20 { margin-bottom: 10px; }
     .top-6rem { top: 2.2rem; }
+    
     .pt-25px { padding-top: 15px; }
     .pt-95px { padding-top: 85px; }
     .pt-50px { padding-top: 20px; }
