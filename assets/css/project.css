@@ -8,10 +8,10 @@
 .info-d { width: 25%; }
 
 @media screen and (max-width: 900px) {
-    .info-d { width: 55%; }
-    .info { width: 100%; display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, auto); }
+    .info-d { width: 100%; }
+    .info { width: 60%; display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, auto); }
 }
 
 @media screen and (max-width:600px) {
-    .info-d { width: 100%; }
+    .info { width: 100%; }
 }
